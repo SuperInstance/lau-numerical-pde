@@ -1,0 +1,15 @@
+[package]
+name = "lau-numerical-pde"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-numerical-pde"
+description = "Numerical methods for partial differential equations — finite differences, heat/wave/Poisson/advection-diffusion solvers, boundary conditions, and error analysis"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
+num-traits = "0.2"
+
+[dev-dependencies]
+approx = "0.5"
